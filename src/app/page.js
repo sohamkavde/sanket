@@ -3,6 +3,7 @@ import styles from "./page.module.css";
 import Header from "./component/Header/Header";
 import Sidebar from "./component/sidebar/sidebar";
 import Center from "./component/Center/Center";
+import Invoice from "./component/invoice/Center";
 
 export default function Home() {
   return (
@@ -10,7 +11,8 @@ export default function Home() {
     <Header/>
     <div className={styles.mainStyle}>
       <Sidebar/>
-      <Center/>
+      {/* <Center/> */}
+      <Invoice/>
     </div>
     </>
   );
