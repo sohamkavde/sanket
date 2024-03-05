@@ -5,7 +5,7 @@ import Templates from './Templates/Templates';
 function Center() {
   return (
     <div className={styleCenter.center}>
-     <Templates/>
+       <Templates/>
       <PreviewInvoice/>
     </div>
   )
