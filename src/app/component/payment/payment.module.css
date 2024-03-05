@@ -172,5 +172,8 @@
     .center {
         flex-direction: column;
     }
+    .template{
+        width: 100%;
+    }
 
 }
